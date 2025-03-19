@@ -15,7 +15,7 @@ export function NewsletterForm() {
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:3000/join-waitlist', {
+      const response = await fetch('https://ecosearch-backend-1-lt5j.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
